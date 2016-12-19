@@ -107,6 +107,9 @@ export class RandomCircles extends React.Component {
     // Render new circles.
     this.project.every(frequency, 'seconds', this._addCircle.bind(this));
     this.project.every(frequency * 2.4, 'seconds', this._addCircle.bind(this));
+
+    // Hack: Re-emit load event for Woof.
+    dispatchEvent(new Event('load'));
   }
 
   render() {
@@ -120,7 +123,7 @@ export class RandomCircles extends React.Component {
           }
         `}</style>
 
-        <script global="false" src="static/javascript/woof.js"></script>
+        <script src="static/javascript/woof.js"></script>
       </Head>
     );
   }
