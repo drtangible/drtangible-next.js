@@ -8,7 +8,7 @@ import { IconLink } from '../components/IconLink'
 export default () => (
   <div className={style}>
     <Head>
-      <link href='http://fonts.googleapis.com/css?family=Domine|Alegreya+Sans|Montserrat' rel='stylesheet' type='text/css' />
+      <link href='//fonts.googleapis.com/css?family=Domine|Alegreya+Sans|Montserrat' rel='stylesheet' type='text/css' />
       <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
       <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, minimal-ui" />
       <title>Dan Gilbert, a Chicago web dude.</title>
