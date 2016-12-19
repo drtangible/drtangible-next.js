@@ -61,6 +61,7 @@ const style = css({
     fontWeight: '900',
     letterSpacing: '-2px',
     lineHeight: '1.5',
+    margin: '0',
   },
 
   '& h2': {
@@ -68,6 +69,7 @@ const style = css({
     lineHeight: '1.5',
     fontWeight: '100',
     letterSpacing: '-1px',
+    margin: '0',
   },
 
   '& .social': {
